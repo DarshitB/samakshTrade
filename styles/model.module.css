@@ -1,0 +1,62 @@
+.closebtn {
+  background-color: #444;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.5s ease;
+  border-radius: 15px !important;
+}
+.StyledModalHeader {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+  background-color: rgb(246, 246, 246);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+.StyledModalOverlay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.StyledModalBody {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 5px 5px 1fr;
+}
+
+.StyledModalBody > span {
+  height: 100% !important;
+  width: 100% !important;
+}
+.StyledModalBody img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  object-position: center;
+}
+.StyledModal {
+  background: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  width: 60%;
+  height: 600px;
+  border-radius: 15px;
+  padding: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .StyledModal {
+    width: 90%;
+    height: 600px;
+  }
+  .StyledModalBody {
+    grid-template-columns: 1fr;
+  }
+}

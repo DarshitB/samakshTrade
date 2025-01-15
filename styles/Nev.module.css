@@ -1,0 +1,135 @@
+.main_wrapper_nev {
+  background-color: white;
+  position: relative;
+  margin: 0%;
+  border-bottom: 1px solid #e0e0e0;
+  display: grid;
+  grid-template-columns: 3rem 1fr 3fr 1fr 3rem;
+  height: 6rem;
+  align-items: center;
+  padding: 0;
+  z-index: 3;
+}
+
+.sm_logo_container {
+  grid-column: 2/3;
+  width: auto !important;
+  display: flex;
+  align-items: center;
+}
+.sm_logo_container a {
+  height: auto;
+  width: auto !important;
+}
+.smlogo {
+  height: 55px;
+  fill: #000;
+}
+.sm_navlist {
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+.sm_nevlinks {
+  padding-right: 2.5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(183, 183, 183);
+  transition: 0.5s ease all;
+}
+.sm_nevlinks::after {
+  content: "";
+  height: 10px;
+  width: 100px;
+  background-color: #000;
+}
+.sm_nevlinks.active {
+  color: #000;
+  text-decoration-line: line-through;
+  text-decoration-color: rgb(122, 122, 122);
+}
+.sm_nevlinks:hover {
+  color: #000;
+  text-decoration-line: line-through;
+  text-decoration-color: rgb(122, 122, 122);
+}
+
+.assistebtn {
+  float: right;
+  background-color: #d90a2c;
+  border: 1px solid white;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s ease all;
+  font-size: 15px;
+  font-weight: 500;
+}
+.assistebtn:hover {
+  background-color: #fff;
+  border: 1px solid #d90a2c;
+  color: #d90a2c;
+}
+.hamburdermenu {
+  display: none;
+}
+.mobile_assinsbtn_container {
+  display: none;
+}
+@media only screen and (max-width: 769px) {
+  .main_wrapper_nev {
+    grid-template-columns: 2rem 5fr 1fr 2rem;
+    height: auto;
+    position: relative;
+    background-color: #fff;
+    height: 6rem;
+  }
+  .hamburdermenu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #d90a2c;
+    position: relative;
+    z-index: 9;
+  }
+  .sm_nevlinks_container {
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 1/5;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 8;
+    background-color: white;
+    transform: translateY(-130%);
+    transition: all 0.2s ease;
+  }
+  .sm_nevlinks_container.moile_nev_container {
+    transform: translateY(0);
+  }
+  .sm_navlist {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .sm_logo_container {
+    z-index: 9;
+  }
+  .assinsbtn_container {
+    display: none;
+  }
+  .mobile_assinsbtn_container {
+    display: block;
+  }
+  .sm_nevlinks {
+    padding: 1rem 0;
+  }
+}
+@media screen and (min-width: 769px) and (orientation: portrait) {
+  .main_wrapper_nev {
+    grid-template-columns: 1px 1fr 3fr 1fr 1px;
+  }
+}

@@ -1,0 +1,215 @@
+.Partners_wrapper {
+  width: 100%;
+  position: relative;
+  padding: 3rem 5rem 5rem;
+  background-color: #fff;
+}
+.Partners_container {
+  z-index: 2;
+  position: relative;
+}
+.Partners_head {
+  position: absolute;
+  display: inline-block;
+  left: 28px;
+  top: 105px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.Partners_head p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #d90a2c;
+  text-transform: uppercase;
+  margin: 0%;
+}
+.Partners_head_discreaption {
+  padding: 0% 3% 0% 5%;
+}
+.Partners_head_discreaption span {
+  text-transform: capitalize;
+  font-size: 42px;
+  line-height: 1.143em;
+  font-weight: 900;
+  color: #000;
+}
+.Partners_inner_discreaption {
+  -webkit-text-stroke: 1px #000;
+  color: transparent !important;
+  transition: all 0.5s ease;
+}
+.Partners_inner_discreaption:hover {
+  -webkit-text-stroke: 1px #000;
+  color: #000 !important;
+}
+.Partners_head_discreaption p {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.partners_mainbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.partnes {
+  width: 100%;
+  height: 400px;
+  padding: 1rem;
+  overflow: hidden !important;
+}
+.parnet_conteiner > span {
+  height: 100% !important;
+  width: 100% !important;
+}
+.parnet_conteiner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+.parner_img {
+  height: 100% !important;
+  width: 100% !important;
+  transition: all 0.5s ease-out;
+  transform: scale(1.05);
+}
+.parnet_conteiner:hover .overlay {
+  opacity: 1;
+}
+.parnet_conteiner:hover .parner_img {
+  backdrop-filter: blur(1000px);
+  filter: blur(3px);
+  transform: scale(1);
+}
+.parner_detailes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease;
+  opacity: 0;
+  width: 70%;
+  text-align: center;
+}
+.co_founder {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-align: center;
+  font-size: 13px !important;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.social_media {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.social_media div svg {
+  fill: #fff;
+  width: 30px;
+  height: 30px;
+  padding: 0.5rem;
+}
+
+.parnet_conteiner:hover .parner_detailes {
+  opacity: 1;
+}
+.parnet_conteiner:hover .co_founder {
+  opacity: 1;
+}
+.parnet_conteiner:hover .social_media {
+  opacity: 1;
+}
+.parner_detailes h1 {
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0%;
+  text-align: center;
+  padding: 0.1rem 0;
+}
+.parner_detailes p {
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0%;
+  text-align: center;
+  font-size: 16px;
+  word-wrap: break-word;
+  font-weight: 400;
+}
+.parner_detailes span {
+  color: #fff;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 500;
+}
+.openmodelbtn {
+  position: relative;
+  z-index: 10;
+}
+@media only screen and (max-width: 769px) {
+  .Partners_wrapper {
+    padding: 3rem 2rem 5rem;
+  }
+  .Partners_head {
+    transform: rotate(0);
+    position: unset;
+    padding: 0%;
+  }
+  .Partners_head p {
+    letter-spacing: 1rem;
+    margin: 0.5rem 0;
+  }
+  .partners_mainbox {
+    display: block;
+  }
+  .Partners_head_discreaption {
+    padding: 0%;
+  }
+  .partnes {
+    padding: 0%;
+    margin-bottom: 1rem;
+  }
+  .overlay {
+    background-image: linear-gradient(
+      to top,
+      #000,
+      transparent,
+      transparent,
+      transparent
+    );
+    opacity: 1;
+  }
+  .parner_detailes {
+    opacity: 1;
+    bottom: 0%;
+    top: unset;
+  }
+}

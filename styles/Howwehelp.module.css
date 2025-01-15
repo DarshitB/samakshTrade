@@ -1,0 +1,149 @@
+.how_wrapper {
+  width: 100%;
+  position: relative;
+  padding: 6rem 5rem;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  overflow: hidden;
+}
+.how_container {
+  position: relative;
+  z-index: 2;
+}
+.how_head {
+  position: absolute;
+  display: inline-block;
+  left: 28px;
+  top: 75px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.how_head p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #d90a2c;
+  text-transform: uppercase;
+  margin: 0%;
+}
+.how_head_discreaption {
+  padding: 0% 10% 0% 7%;
+}
+.how_head_discreaption span {
+  text-transform: capitalize;
+  font-size: 42px;
+  line-height: 1.143em;
+  font-weight: 900;
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+.how_inner_discreaption {
+  -webkit-text-stroke: 1px #000;
+  color: transparent !important;
+  transition: all 0.1s linear;
+}
+.textformotion {
+  transition: all 0.1s linear;
+}
+.how_inner_discreaption span {
+  -webkit-text-stroke: 1px #000;
+  color: transparent !important;
+  transition: all 0.1s linear;
+}
+.how_inner_discreaption:hover {
+  -webkit-text-stroke: 1px #d90a2c;
+  color: #d90a2c !important;
+}
+.how_inner_discreaption span:hover {
+  -webkit-text-stroke: 1px #d90a2c;
+  color: #d90a2c !important;
+}
+.how_head_discreaption p {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.howwehelpimgcontainer {
+  height: 500px;
+}
+.howwehelpimgcontainer span {
+  height: 100% !important;
+}
+.howwehelpimh {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.background_backitems3 {
+  position: absolute;
+  bottom: 0%;
+  right: -7%;
+  height: 80%;
+  z-index: 0;
+  transform: rotate(145deg);
+}
+.background_backitems3 span {
+  height: 100% !important;
+  width: 100% !important;
+}
+.background_backitems3 img {
+  opacity: 1;
+}
+.background_backitems1 {
+  position: absolute;
+  top: 3%;
+  right: 10%;
+  height: 40%;
+  z-index: 0;
+}
+.background_backitems1 span {
+  height: 100% !important;
+  width: 100% !important;
+}
+.background_backitems1 img {
+  opacity: 0.5;
+}
+@media only screen and (max-width: 769px) {
+  .how_wrapper {
+    padding: 3rem 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .how_head {
+    transform: rotate(0);
+    position: unset;
+    padding: 0%;
+  }
+  .how_head p {
+    letter-spacing: 1rem;
+    margin: 0.5rem 0;
+  }
+  .how_head_discreaption {
+    padding: 0%;
+  }
+  .how_head_discreaption span {
+    font-size: 31px;
+  }
+  .howwehelpimgcontainer {
+    margin-top: 3rem;
+  }
+  .background_backitems1 {
+    height: 20%;
+    top: 0%;
+    right: 15%;
+  }
+  .background_backitems3 {
+    height: 39%;
+    bottom: -7%;
+    right: -8%;
+  }
+}

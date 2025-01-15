@@ -1,0 +1,245 @@
+.homepagecontainer {
+  position: relative;
+  overflow: hidden !important;
+  margin-bottom: 40rem;
+  z-index: 2;
+}
+
+.lines {
+  min-height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)) calc(1 * 100% / 6),
+    linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)) calc(2 * 100% / 6),
+    linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)) calc(3 * 100% / 6),
+    linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)) calc(4 * 100% / 6),
+    linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)) calc(5 * 100% / 6);
+  background-size: 1px 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.PreAssessmentForm_form_wrapper {
+  padding: 7rem 10rem 3rem;
+  background-color: white;
+}
+
+.PreAssessmentForm_form_container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  padding: 0 2rem;
+}
+
+.PreAssessmentForm_form_container input {
+  padding: 0.5rem 0.2rem;
+  margin: 0 0 3.5rem 0;
+  border: 0;
+  border-bottom: 2px solid #000;
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+}
+
+.PreAssessmentForm_form2_sidebyside select {
+  padding: 0.5rem 0.2rem;
+  margin: 0 0 3.5rem 0;
+  border: 0;
+  border-bottom: 2px solid #000;
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+}
+
+.PreAssessmentForm_form2_sidebyside textarea {
+  padding: 0.5rem 0.2rem;
+  border: 2px solid #000;
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.PreAssessmentForm_form_container textarea {
+  padding: 0.5rem 0.2rem;
+  border: 2px solid #000;
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+  margin-bottom: 3rem;
+}
+
+.PreAssessmentForm_form_container label {
+  padding: 0.5rem 0.2rem;
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+}
+
+.PreAssessmentForm_form_container button {
+  padding: 1rem 0rem;
+  font-size: 17px;
+  font-weight: 800;
+  outline: none;
+  background-color: #fff;
+  width: 200px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.PreAssessmentForm_form_container button:hover {
+  background-color: #d90a2c;
+}
+
+.PreAssessmentForm_form_sidebyside {
+  display: flex;
+  width: 100% !important;
+  padding: 0 0 0 1rem;
+}
+
+.PreAssessmentForm_textare_sidebyside {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+  padding: 0 0 0 1rem;
+}
+
+.PreAssessmentForm_form2_sidebyside {
+  display: flex;
+  width: 100% !important;
+  padding: 0 0 0 1rem;
+}
+
+.PreAssessmentForm_form2_sidebyside div {
+  width: 50% !important;
+}
+
+.marginRight {
+  margin-right: 1rem;
+}
+
+.PreAssessmentForm_form_sidebyside input {
+  width: 50%;
+}
+
+.PreAssessmentForm_form2_sidebyside div input {
+  width: 100% !important;
+}
+
+.PreAssessmentForm_form2_sidebyside div select {
+  width: 100% !important;
+}
+
+.PreAssessmentForm_form_sidebyside input:nth-child(1) {
+  margin-right: 1rem;
+}
+
+.PreAssessmentForm_form_sidebyside input:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.PreAssessmentForm_head {
+  position: absolute;
+  display: inline-block;
+  left: 28px;
+  top: 145px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+.PreAssessmentForm_head p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #d90a2c;
+  text-transform: uppercase;
+  margin: 0%;
+}
+
+.last_form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 1rem;
+}
+
+.heading_ofpreassist {
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 0%;
+  color: #d90a2c;
+}
+
+.inner_heading_ofpreassist {
+  margin-top: 0%;
+}
+
+@media only screen and (max-width: 769px) {
+  .homepagecontainer {
+    margin-bottom: 0rem;
+  }
+
+  .PreAssessmentForm_form_wrapper {
+    padding: 7rem 2rem 3rem;
+  }
+
+  .PreAssessmentForm_head {
+    transform: rotate(0);
+    position: unset;
+    padding: 0%;
+  }
+
+  .PreAssessmentForm_head p {
+    letter-spacing: 1rem;
+    margin: 2rem 0;
+  }
+
+  .PreAssessmentForm_form_container {
+    padding: 0%;
+  }
+
+  .PreAssessmentForm_form_sidebyside {
+    padding: 0%;
+    display: block;
+  }
+
+  .PreAssessmentForm_form2_sidebyside {
+    padding: 0%;
+    display: block;
+  }
+
+  .PreAssessmentForm_textare_sidebyside {
+    padding: 0%;
+  }
+
+  .PreAssessmentForm_form_sidebyside input {
+    width: 100%;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+
+  .PreAssessmentForm_form2_sidebyside div {
+    width: 100% !important;
+  }
+
+  .PreAssessmentForm_form2_sidebyside input {
+    width: 100%;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+
+  .last_form {
+    padding: 0%;
+  }
+}

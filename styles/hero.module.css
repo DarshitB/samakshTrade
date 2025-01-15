@@ -1,0 +1,407 @@
+.herowrapper {
+  background-color: #fff;
+  height: 86vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.back_herosec {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.back_herosecimg {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0%;
+}
+.back_heroseclogo {
+  display: flex;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center !important;
+}
+.front_services1 {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30rem, -10rem) !important;
+}
+.back_herosecimg span {
+  width: 100% !important;
+  height: 100% !important;
+}
+.logocontainer span {
+  width: 80px !important;
+  height: 80px !important;
+  transform: translate(-50%, -50%) !important;
+  margin: 0% !important;
+}
+.frontlogo span {
+  width: auto !important;
+  height: 110px !important;
+  margin: 0% !important;
+}
+.front_container_namenlogo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logonamecontainer span {
+  width: auto !important;
+  height: 55px !important;
+  transform: translate(-50%, -50%) !important;
+  margin: 0% !important;
+  background-image: radial-gradient(
+    white,
+    white,
+    transparent,
+    transparent,
+    transparent
+  ) !important;
+}
+.front_servicename h3 {
+  margin: 0% !important;
+  text-transform: capitalize;
+}
+.back_img_logoname {
+  padding: 0.5rem 0 !important;
+}
+.back_img {
+  width: auto !important;
+  height: 100% !important;
+  opacity: 1;
+}
+.back_img_logo {
+  height: 100% !important;
+  width: 100% !important;
+  animation: 10s linear infinite normal forwards rotet;
+}
+.front_img_logo {
+  height: 100% !important;
+  width: 100% !important;
+}
+.back_svg {
+  width: 100vw !important;
+  height: auto !important;
+  opacity: 0.05;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.manntopwrapper {
+  background-color: white;
+}
+
+.textmain {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.textmain h1 {
+  font-size: 100px;
+  line-height: 1.143em;
+  font-weight: 900;
+  text-transform: capitalize;
+  -webkit-text-stroke: 1.6px #000;
+  color: rgba(236, 236, 234, 0.991);
+  letter-spacing: 1px;
+  margin: 0 0 1.7rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.textmain .inner_textmain {
+  color: #000;
+  -webkit-text-stroke: 0px #000;
+  display: flex;
+}
+.textmain p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 25px;
+  line-height: 1.3em;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin: 0%;
+}
+.background_circuite {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  padding: 4rem 0;
+}
+.background_backitems1 {
+  position: absolute;
+  top: 0%;
+  right: -20%;
+  height: 40%;
+  z-index: 0;
+  transform: rotate(45deg);
+}
+.background_circuite > span {
+  width: 100% !important;
+  height: 100% !important;
+}
+.background_backitems1 > span {
+  width: 100% !important;
+  height: 100% !important;
+}
+.background_circuite .backcircuite {
+  width: 60% !important;
+  height: auto !important;
+  opacity: 0.03;
+}
+.background_backitems1 .backitems1 {
+  width: 60% !important;
+  height: auto !important;
+  opacity: 0.1;
+}
+.innerg1 {
+  animation: 2.32s linear -0s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg2 {
+  animation: 2.32s linear -0.04s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg3 {
+  animation: 2.32s linear -0.08s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg4 {
+  animation: 2.32s linear -0.12s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg5 {
+  animation: 2.32s linear -0.16s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg6 {
+  animation: 2.32s linear -0.2s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg7 {
+  animation: 2.32s linear -0.24s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg8 {
+  animation: 2.32s linear -0.28s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg9 {
+  animation: 2.32s linear -0.32s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg10 {
+  animation: 2.32s linear -0.36s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg11 {
+  animation: 2.32s linear -0.4s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg12 {
+  animation: 2.32s linear -0.44s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg13 {
+  animation: 2.32s linear -0.48s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg14 {
+  animation: 2.32s linear -0.52s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg15 {
+  animation: 2.32s linear -0.56s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg16 {
+  animation: 2.32s linear -0.6s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg17 {
+  animation: 2.32s linear -0.64s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg18 {
+  animation: 2.32s linear -0.68s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg19 {
+  animation: 2.32s linear -0.72s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg20 {
+  animation: 2.32s linear -0.76s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg21 {
+  animation: 2.32s linear -0.8s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg22 {
+  animation: 2.32s linear -0.84s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg23 {
+  animation: 2.32s linear -0.88s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg24 {
+  animation: 2.32s linear -0.92s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg25 {
+  animation: 2.32s linear -0.96s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg26 {
+  animation: 2.32s linear -1s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg27 {
+  animation: 2.32s linear -1.04s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg28 {
+  animation: 2.32s linear -1.08s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg29 {
+  animation: 2.32s linear -1.12s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg30 {
+  animation: 2.32s linear -1.16s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg31 {
+  animation: 2.32s linear -1.2s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg32 {
+  animation: 2.32s linear -1.24s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg33 {
+  animation: 2.32s linear -1.28s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg34 {
+  animation: 2.32s linear -1.32s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg35 {
+  animation: 2.32s linear -1.36s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg36 {
+  animation: 2.32s linear -1.4s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg37 {
+  animation: 2.32s linear -1.44s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg38 {
+  animation: 2.32s linear -1.48s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg39 {
+  animation: 2.32s linear -1.52s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg40 {
+  animation: 2.32s linear -1.56s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg41 {
+  animation: 2.32s linear -1.6s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg42 {
+  animation: 2.32s linear -1.64s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg43 {
+  animation: 2.32s linear -1.68s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg44 {
+  animation: 2.32s linear -1.72s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg45 {
+  animation: 2.32s linear -1.76s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg46 {
+  animation: 2.32s linear -1.8s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg47 {
+  animation: 2.32s linear -1.84s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg48 {
+  animation: 2.32s linear -1.88s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg49 {
+  animation: 2.32s linear -1.92s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg50 {
+  animation: 2.32s linear -1.96s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg51 {
+  animation: 2.32s linear -2s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg52 {
+  animation: 2.32s linear -2.04s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg53 {
+  animation: 2.32s linear -2.08s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg54 {
+  animation: 2.32s linear -2.12s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg55 {
+  animation: 2.32s linear -2.16s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg56 {
+  animation: 2.32s linear -2.2s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg57 {
+  animation: 2.32s linear -2.24s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg58 {
+  animation: 2.32s linear -2.28s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+.innerg59 {
+  animation: 2.32s linear -2.32s infinite normal forwards running breath-d85a2f6c-6634-4764-bdca-f2f88417fa15;
+}
+
+@keyframes breath-d85a2f6c-6634-4764-bdca-f2f88417fa15 {
+  0% {
+    transform: scale(0.9999999999999999);
+    transform-origin: center;
+  }
+  51% {
+    transform: scale(1.01);
+    transform-origin: center;
+  }
+  100% {
+    transform: scale(0.9999999999999999);
+    transform-origin: center;
+  }
+}
+@keyframes rotet {
+  0% {
+    transform: rotate(0);
+    transform-origin: center;
+  }
+  51% {
+    transform: rotate(180deg);
+    transform-origin: center;
+  }
+  100% {
+    transform: rotate(360deg);
+    transform-origin: center;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .textmain h1 {
+    font-size: 55px;
+  }
+  .textmain p {
+    font-size: 20px;
+  }
+  .back_img {
+    height: 100vh !important;
+    width: auto !important;
+    bottom: -5%;
+    top: unset;
+    left: unset;
+    right: -5%;
+    transform: translate(0%);
+    opacity: 0.2;
+  }
+  .inner_textmain {
+    color: #d90a2c !important;
+  }
+}
+@media screen and (min-width: 769px) and (orientation: portrait) {
+  .herowrapper {
+    height: 36vh;
+  }
+  .textmain h1 {
+    font-size: 65px;
+  }
+}
