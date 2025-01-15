@@ -1,14 +1,14 @@
-import styles from "../styles/AboutUs.module.css";
+import styles from "../styles/aboutUs.module.css";
 import Imag from "next/image";
 import Head from "next/head";
 import aboutimg from "../public/images/aboutusimg.jpg";
 
 import Navbar from "../components/navbar";
-import CustomCursor from "../components/Cursor";
+import CustomCursor from "../components/cursor";
 import About from "../components/about";
 import Footer from "../components/footer";
-import OurMission from "../components/OurMission";
-import Partners from "../components/Partners";
+import OurMission from "../components/ourMission";
+import Partners from "../components/partners";
 import { motion } from "framer-motion";
 
 function AboutUs() {

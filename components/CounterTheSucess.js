@@ -1,4 +1,4 @@
-import styles from "../styles/CounterTheSucess.module.css";
+import styles from "../styles/counterTheSucess.module.css";
 import Image from "next/image";
 import backitems2 from "../public/images/backitems2.svg";
 import { motion } from "framer-motion";

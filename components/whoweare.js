@@ -1,4 +1,4 @@
-import styles from "../styles/Whoweare.module.css";
+import styles from "../styles/whoweare.module.css";
 import Image from "next/image";
 import backitems4 from "../public/images/backitems4.svg";
 import { motion } from "framer-motion";

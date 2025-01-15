@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
-import styles from "../styles/Nev.module.css";
+import styles from "../styles/nev.module.css";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
@@ -226,34 +226,34 @@ function Navbar() {
             </li>
             <li
               className={`${styles.sm_nevlinks}  ${
-                router.pathname == "/AboutUs" ? styles.active : ""
+                router.pathname == "/aboutUs" ? styles.active : ""
               }`}
             >
-              <Link href="/AboutUs">about</Link>
+              <Link href="/aboutUs">about</Link>
             </li>
             <li
               className={`${styles.sm_nevlinks}  ${
-                router.pathname == "/Services" ? styles.active : ""
+                router.pathname == "/services" ? styles.active : ""
               }`}
             >
-              <Link href="/Services">services</Link>
+              <Link href="/services">services</Link>
             </li>
             <li
               className={`${styles.sm_nevlinks}  ${
-                router.pathname == "/Career" ? styles.active : ""
+                router.pathname == "/career" ? styles.active : ""
               }`}
             >
-              <Link href="/Career">career</Link>{" "}
+              <Link href="/career">career</Link>{" "}
             </li>
             <li
               className={`${styles.sm_nevlinks}  ${
-                router.pathname == "/FreeConsultation" ? styles.active : ""
+                router.pathname == "/freeConsultation" ? styles.active : ""
               }`}
             >
-              <Link href="/FreeConsultation">Free Consultation</Link>
+              <Link href="/freeConsultation">Free Consultation</Link>
             </li>
             <li className={styles.mobile_assinsbtn_container}>
-              <Link href="/PreAssessmentForm">
+              <Link href="/preAssessmentForm">
                 <button className={styles.assistebtn}>
                   Pre-Assessment Form
                 </button>
@@ -262,7 +262,7 @@ function Navbar() {
           </ul>
         </div>
         <motion.div className={styles.assinsbtn_container} version={zoom}>
-          <Link href="/PreAssessmentForm">
+          <Link href="/preAssessmentForm">
             <button className={styles.assistebtn}>Pre-Assessment Form</button>
           </Link>
         </motion.div>

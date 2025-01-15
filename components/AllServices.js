@@ -1,4 +1,4 @@
-import styles from "../styles/AllServices.module.css";
+import styles from "../styles/allServices.module.css";
 import webServices from "../public/images/webServices.svg";
 import saleServices from "../public/images/saleServices.svg";
 import Image from "next/image";

@@ -1,8 +1,8 @@
-import styles from "../styles/PreAssessmentForm.module.css";
+import styles from "../styles/preAssessmentForm.module.css";
 import Head from "next/head";
 
 import Navbar from "../components/navbar";
-import CustomCursor from "../components/Cursor";
+import CustomCursor from "../components/cursor";
 import Footer from "../components/footer";
 import { motion } from "framer-motion";
 function PreAssessmentForm() {

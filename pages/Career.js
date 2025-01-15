@@ -1,8 +1,8 @@
-import styles from "../styles/Career.module.css";
+import styles from "../styles/career.module.css";
 import Head from "next/head";
 
 import Navbar from "../components/navbar";
-import CustomCursor from "../components/Cursor";
+import CustomCursor from "../components/cursor";
 import Footer from "../components/footer";
 
 import { motion } from "framer-motion";

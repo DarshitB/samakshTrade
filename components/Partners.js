@@ -2,7 +2,7 @@ import styles from "../styles/partners.module.css";
 import Image from "next/image";
 
 import siddharth from "../public/images/siddharth.jpg";
-import Modal from "../components/model";
+import Modal from "./model";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 function Partners() {

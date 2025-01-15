@@ -1,14 +1,14 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/home.module.css";
 import About from "../components/about";
-import CustomCursor from "../components/Cursor";
+import CustomCursor from "../components/cursor";
 import Herosection from "../components/herosection";
-import Howwehelp from "../components/Howwehelp";
+import Howwehelp from "../components/howwehelp";
 import Navbar from "../components/navbar";
 import Whoweare from "../components/whoweare";
 import Footer from "../components/footer";
 import Globalappearance from "../components/globalappearance";
-import CounterTheSucess from "../components/CounterTheSucess";
+import CounterTheSucess from "../components/counterTheSucess";
 
 export default function Home() {
   return (

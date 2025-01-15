@@ -1,4 +1,4 @@
-import styles from "../styles/Ourmission.module.css";
+import styles from "../styles/ourmission.module.css";
 import { motion } from "framer-motion";
 function OurMission() {
   const container = {

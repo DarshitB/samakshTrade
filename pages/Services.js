@@ -1,13 +1,13 @@
-import styles from "../styles/Services.module.css";
+import styles from "../styles/services.module.css";
 import Imag from "next/image";
 import Head from "next/head";
 import aboutimg from "../public/images/seervice.jpg";
 
 import Navbar from "../components/navbar";
-import CustomCursor from "../components/Cursor";
+import CustomCursor from "../components/cursor";
 import Footer from "../components/footer";
-import OurServices from "../components/OurServices";
-import AllServices from "../components/AllServices";
+import OurServices from "../components/ourServices";
+import AllServices from "../components/allServices";
 import { motion } from "framer-motion";
 function Services() {
   const container = {

@@ -1,4 +1,4 @@
-import styles from "../styles/Howwehelp.module.css";
+import styles from "../styles/howwehelp.module.css";
 import Image from "next/image";
 import howimg from "../public/images/howehelp.jpg";
 import backitems1 from "../public/images/backitems1.svg";
