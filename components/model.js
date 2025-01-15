@@ -17,7 +17,7 @@ const Modal = ({ show, onClose, children, title }) => {
     <div className={styles.StyledModalOverlay}>
       <div className={styles.StyledModal}>
         <div className={styles.StyledModalHeader}>
-          <span onClick={handleCloseClick} className={styles.closebtn}>
+          <span onClick={handleCloseClick} className={styles.closebtn} tabIndex="0" role="button">
             close
           </span>
         </div>
