@@ -133,8 +133,5 @@ Located in the `public/` folder:
 ## Styling
 Styles are modular and scoped to individual components using CSS modules. Global styles are defined in `globals.css`.
 
----
 
-## License
-This project is licensed under the [MIT License](LICENSE).
 
